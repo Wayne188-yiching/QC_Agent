@@ -1,0 +1,18 @@
+# 產出物 — 全部可由 qc.py 重新產生，且內含公司素材資料，不進版控
+*_report.html
+atlas_overlay.png
+finding_*.png
+region_*.png
+
+# 素材與基準檔留在資產目錄，不屬於這個工具
+qc-baseline.json
+*.atlas
+*.atlas.txt
+*.skel
+*.skel.bytes
+*.spine
+*.psd
+
+__pycache__/
+*.pyc
+.venv/
